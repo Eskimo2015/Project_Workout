@@ -24,7 +24,7 @@ public class WarmUp {
 	void createWarmUpSets(){
 		for(int i = 0; i < 5; i++)
 		 	warmUpSets.add(new WarmUpSet());
-	}dhbx
+	}
 	void checkDeadLift(String exName){
 		if("Deadlift" == exName || "Barbell Row" == exName) {
 			wupWeight = 20;
